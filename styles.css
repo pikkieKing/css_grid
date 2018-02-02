@@ -1,0 +1,201 @@
+body{
+  background-color:lightblue;
+  max-width: 100%;
+}
+
+.one {
+  height: 100%;
+  text-align: center;
+  word-spacing: 5px;
+  width: 100%;
+  font-size: 40px;
+  background-color: black;
+  color: red;
+  margin-bottom: 10px;
+  position: fixed;
+  height: 60px;
+  top: 0;
+}
+
+.three {
+  grid-column: 4/12;
+  grid-row: 1/6;
+  border: solid;
+  background-color: white;
+  width: 100%;
+  margin-right: 150px;
+}
+
+.four {
+  grid-column: 6/12;
+  grid-row: 6/11;
+  border: solid;
+  background-color: white;
+
+}
+.five{
+  margin-top: 20px;
+  grid-column: 1/12;
+  grid-row: 11/12 ;
+  border: solid 1px;
+  background-color: pink;
+}
+
+.img{
+  border-radius: 40px;
+  margin: 10px;
+}
+a:hover{
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+a.active {
+  background-color: pink;
+  color: none;
+}
+#side_nav {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(4,1fr);
+  grid-row-gap: 20px;
+  background-color: black;
+  height: 200px;
+  width: 200px;
+}
+
+.Naming{
+  background-color: black;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-top: -1.5%;
+}
+
+.jump_links1 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+.jump_links2 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+.jump_links3 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+.jump_links4 {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+#image_links {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+  grid-gap: 5px;
+  margin-left: 10px;
+}
+.jump_images1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 200px;
+  width: 250px;
+}
+.jump_images2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: 200px;
+  width: 250px;
+}
+.jump_images3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  height: 200px;
+  width: 250px;
+}
+.jump_images4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  height: 200px;
+  width: 250px;
+}
+#top-page {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+#gg {
+  grid-column: 1/2;
+}
+#wp {
+  grid-column: 2/6;
+}
+
+#camp {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+#climb {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+#fish {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+#hike {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(1,1fr);
+}
+.tweede {
+  grid-row: 1/2;
+}
+.silver {
+  grid-row: 2/3;
+}
+.montagu {
+  grid-row: 2/3;
+}
+.rocklands {
+  grid-row: 2/3;
+}
+.kei {
+  grid-row: 3/4;
+}
+.tulbagh {
+  grid-row: 3/4;
+}
+.rightface {
+  grid-row: 4/5;
+}
+.tranq {
+  grid-row: 4/5;
+}
+.witels {
+  grid-row: 4/5;
+}
+.alphen {
+  grid-row: 4/5;
+}
+.home-images {
+  width: 300px;
+  height: 200px;
+}
+form {
+  margin-top: 80px;
+}
